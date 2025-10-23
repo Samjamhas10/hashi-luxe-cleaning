@@ -4,6 +4,7 @@ import { useState } from "react";
 import Home from "../Home/Home";
 import Navigation from "../Navigation/Navigation";
 import Service from "../Service/Service";
+import Pricing from "../Pricing/Pricing";
 import Contact from "../Contact/Contact";
 import Footer from "../Footer/Footer";
 
@@ -18,6 +19,7 @@ function App() {
       <Home />
       <Navigation />
       <Service />
+      <Pricing />
       <Contact />
       <Footer />
       <p>hello!</p>
